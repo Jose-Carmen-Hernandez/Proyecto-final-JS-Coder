@@ -19,7 +19,7 @@ function inicioSesion(usuarios) {
   });
 
   if (usuarioEncontrado) {
-    window.location.href = "../pages/productos.html";
+    window.location.href = "./pages/productos.html";
   } else {
     pMensaje.innerHTML = "Usuario no encontrado";
   }
