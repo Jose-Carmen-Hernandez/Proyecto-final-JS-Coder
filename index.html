@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Sweet alert-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.min.css"
+    />
+    <!--Hoja de estilos propia-->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Iniciar Sesión</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="titulo"><span>COMPU-MUNDO</span></h1>
+      <img class="logo" src="../img/compuLogo.jpg" alt="logo computadoras" />
+
+      <h2 id="secundario">Su aliado en equipos electronicos</h2>
+    </header>
+    <div class="wrapper">
+      <hr />
+
+      <main>
+        <h2 id="secundario" class="secundario">Ingrese sus datos</h2>
+        <!--Formulario de acceso-->
+        <div class="contenedor-formulario">
+          <form id="loginForm" class="ingresoform">
+            <label for="usuario">Usuario:</label>
+            <input type="text" name="usuario" id="usuario" required />
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" id="correo" required />
+            <label for="clave">Contraseña:</label>
+            <input type="password" name="clave" id="clave" required />
+            <button type="submit" id="btnLogin" class="btn btn-success">
+              Iniciar Sesión
+            </button>
+            <a class="enlace-registro" href="./pages/registro.html"
+              >¿No tiene cuenta? Registrese</a
+            >
+            <p class="mensaje" id="mensaje"></p>
+          </form>
+        </div>
+      </main>
+    </div>
+
+    <!--Sweet alert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.all.min.js"></script>
+    <!--MI SCRIPT JS-->
+    <script src="./js/login.js"></script>
+  </body>
+</html>
