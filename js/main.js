@@ -123,7 +123,7 @@ function agregarAlCarrito(event) {
   }
 }
 
-//---FUNCION PARA QUITAR UN PRODUCTO DEL CARRITO:---**totalPagar no vuelve a 0 en LS**
+//FUNCION PARA QUITAR UN PRODUCTO DEL CARRITO:
 function quitarDelCarrito(event) {
   const productoId = parseInt(event.target.getAttribute("data-id"));
   const indice = carrito.findIndex((item) => item.id === productoId);
