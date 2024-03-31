@@ -6,21 +6,21 @@ let tienda;
 
 //Funcion para llamar al array 'tienda' de forma asincrona:
 const getData = async (url) => {
-  try {
-    const respuesta = await fetch(url);
-    const datos = await respuesta.json();
-    console.log(datos);
-    //desestructurar:
-    tienda = datos.tienda; //Se asigna el valor de datos.tienda a la variable global 'tienda'.
+  /*try {*/
+  const respuesta = await fetch(url);
+  const datos = await respuesta.json();
+  console.log(datos);
+  //desestructurar:
+  tienda = datos.tienda; //Se asigna el valor de datos.tienda a la variable global 'tienda'.
 
-    // Después de obtener los datos, llamar a crearHtml:
-    crearHtml(tienda);
-    //llamar a agregarEventos:
+  // Después de obtener los datos, llamar a crearHtml:
+  crearHtml(tienda);
+  //llamar a agregarEventos:
 
-    agregarEventos(tienda);
-  } catch (error) {
+  agregarEventos(tienda);
+  /*} catch (error) {
     console.error("Error al obtener los datos:", error);
-  }
+  }*/
 };
 
 const API_URL = "../db/db.json";
