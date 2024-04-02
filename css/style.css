@@ -163,12 +163,18 @@ form input {
   width: 100px;
   background-color: #1f561f;
   color: #fff;
-  transition: background-color 0.25s ease-in-out;
+  transition: 0.5s;
 }
 
 .btn-success:hover {
-  transition-delay: 0.25s;
+  transform: rotateX(360deg);
   background-color: #000;
+}
+
+.btn-show {
+  width: 100px;
+  background-color: #78ee11dd;
+  color: #fff;
 }
 
 .btn-danger {
@@ -193,24 +199,32 @@ form input {
 }
 
 img {
-  width: 200px;
-  height: 200px !important;
+  width: 220px;
+  height: 220px;
   object-fit: cover;
 }
 
 .card {
   margin-top: 10px;
   padding: 1.3rem;
-  width: 280px;
-  height: 400px;
+  width: 300px;
+  height: 420px;
   color: #000;
-  border: 5px double #000;
+  border: 7px double #000000;
   border-radius: 10px;
   background-color: #bfdc1a89;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  -webkit-box-shadow: 3px 1px 20px -2px rgba(222, 188, 36, 0.44);
+  -moz-box-shadow: 3px 1px 20px -2px rgba(239, 236, 45, 0.44);
+  box-shadow: 3px 1px 20px -2px rgba(204, 204, 21, 0.44);
 }
 
 .card h3 {
@@ -220,14 +234,4 @@ img {
 .card-action {
   max-width: 100%;
   background-color: #bad52182;
-}
-
-.box {
-  background-color: #eaff6a;
-  padding: 40px;
-  width: 300px;
-  border-radius: 20px;
-  -webkit-box-shadow: 3px 1px 20px -2px rgba(0, 0, 0, 0.44);
-  -moz-box-shadow: 3px 1px 20px -2px rgba(0, 0, 0, 0.44);
-  box-shadow: 3px 1px 20px -2px rgba(0, 0, 0, 0.44);
 }
