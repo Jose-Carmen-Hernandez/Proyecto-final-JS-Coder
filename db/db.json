@@ -4,49 +4,57 @@
       "id": 1,
       "nombre": "computadora de escritorio hp ",
       "precio": 10500,
-      "img": "Compu2.jpeg"
+      "img": "Compu2.jpeg",
+      "stock": 5
     },
     {
       "id": 2,
       "nombre": "laptop Dell Inspiron",
       "precio": 12000,
-      "img": "Dell2.jpeg"
+      "img": "Dell2.jpeg",
+      "stock": 3
     },
     {
       "id": 3,
       "nombre": "audifonos hp",
       "precio": 800,
-      "img": "audifonoshp2.jpeg"
+      "img": "audifonoshp2.jpeg",
+      "stock": 6
     },
     {
       "id": 4,
       "nombre": "bocinas usb",
       "precio": 1200,
-      "img": "bocinas.jpg"
+      "img": "bocinas.jpg",
+      "stock": 4
     },
     {
       "id": 5,
       "nombre": "motorola g14",
       "precio": 5000,
-      "img": "moto-g14.jpg"
+      "img": "moto-g14.jpg",
+      "stock": 9
     },
     {
       "id": 6,
       "nombre": "i-pad pro max",
       "precio": 15000,
-      "img": "ipad.jpeg"
+      "img": "ipad.jpeg",
+      "stock": 2
     },
     {
       "id": 7,
       "nombre": "monitor gamer",
       "precio": 6000,
-      "img": "monitor gamer.jpg"
+      "img": "monitor gamer.jpg",
+      "stock": 5
     },
     {
       "id": 8,
       "nombre": "Laptop HP Pavillion",
       "precio": 8000,
-      "img": "lapHP.jpeg"
+      "img": "lapHP.jpeg",
+      "stock": 2
     }
   ]
 }
