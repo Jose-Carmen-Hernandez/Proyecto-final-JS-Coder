@@ -1,2 +1,1 @@
-Simulador de tienda de electrónicos (computadoras y celulares). El programa permite: crear cuenta de usuario (si el correo con el que te registras ya ha sido registrado antes, aparecerá una alerta indicando esto), ingresar con el usuario y contraseña creados, Ver las tarjetas de productos, agregar productos al carrito, quitar productos del carrito, ver todos los productos agregados al carrito y saber cuánto se debe pagar por ellos, limpiar el carrito completo y pagar los productos del carrito mostrando el total pagado en una alerta.
-El precio total a pagar por los productos del carrito se almacena en local storage y se restablece a cero cuando el carrito se vacia y cuando el carrito ha sido pagado.
+
